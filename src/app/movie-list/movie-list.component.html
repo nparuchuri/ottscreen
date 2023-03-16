@@ -1,1 +1,39 @@
-<p>movie-list works!</p>
+
+<div class="container">  
+    <table class="table table-striped">  
+      <thead>  
+          <tr>  
+            <!-- <th>ID</th>   -->
+            <th>Name</th>  
+            <th>Platform</th>  
+            <th>Date</th>  
+          </tr>  
+      </thead>  
+      <tbody>  
+        <tr *ngFor="let movie of telugumovies">  
+          <!-- <td>{{ movie.id }}</td>   -->
+          <td>{{ movie.name }}</td>  
+          <td>{{ movie.platform }}</td>  
+          <td>{{ movie.date }}</td>  
+        </tr>  
+        <tr *ngFor="let movie of tamilmovies">  
+            <!-- <td>{{ movie.id }}</td>   -->
+            <td>{{ movie.name }}</td>  
+            <td>{{ movie.platform }}</td>  
+            <td>{{ movie.date }}</td>  
+          </tr> 
+          <tr *ngFor="let movie of malayalammovies">  
+            <!-- <td>{{ movie.id }}</td>   -->
+            <td>{{ movie.name }}</td>  
+            <td>{{ movie.platform }}</td>  
+            <td>{{ movie.date }}</td>  
+          </tr> 
+          <tr *ngFor="let movie of hindimovies">  
+            <!-- <td>{{ movie.id }}</td>   -->
+            <td>{{ movie.name }}</td>  
+            <td>{{ movie.platform }}</td>  
+            <td>{{ movie.date }}</td>  
+          </tr> 
+      </tbody>  
+    </table>  
+  </div>  

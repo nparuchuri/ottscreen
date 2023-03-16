@@ -1,0 +1,32 @@
+  [
+  {  
+    "id": 5,  
+    "name": "Waltair Veerayya",  
+    "platform": "Netflix",  
+    "date": "Feb 27, 2023" 
+  },  
+  {  
+    "id": 4,  
+    "name": "Veera Smiha Reddy",  
+    "platform": "Diney+ Hotstar",  
+    "date": "Feb 23, 2023"  
+  },  
+  {  
+    "id": 3,  
+    "name": "Vaarasudu",  
+    "platform": "Amazon Prime",  
+    "date": "Feb 22, 2023"  
+  },  
+  {  
+    "id": 2,  
+    "name": "Gaalodu",  
+    "platform": "Aha, Amazon Prime",  
+    "date": "Feb 17, 2023"   
+  },  
+  {  
+    "id": 1,  
+    "name": "Kalyanam Kamaneeyam",  
+    "platform": "Aha, Amazon Prime",  
+    "date": "Feb 17, 2023"   
+  }  
+]  
